@@ -1,0 +1,25 @@
+:root {
+  --bgc-basic-color: #ffffff;
+  --primary-tex-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* кол осн #212121  */
+/* кол дод #757575 */
+/* кол актив #2196f3 */
+/* кол фон осн #ffffff */
+
+body {
+  color: var(--primary-tex-color);
+  background-color: var(--bgc-basic-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.list :hover,
+.list :active {
+  color: #2196f3;
+}
