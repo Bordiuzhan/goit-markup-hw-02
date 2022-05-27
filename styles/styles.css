@@ -20,8 +20,8 @@ body {
   text-decoration: none;
 }
 
-.active :hover,
-.active :active {
+.active:hover,
+.active:active {
   color: var(--accent-color);
 }
 
@@ -47,7 +47,9 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
+.site-nav .link-nav.current {
+  color: #2196f3;
+}
 .auth-nav {
   font-weight: 500;
   font-size: 14px;
@@ -86,8 +88,8 @@ body {
   cursor: pointer;
 }
 
-.hero-buton-activ :hover,
-.hero-buton-activ :active {
+.hero-buton-activ:hover,
+.hero-buton-activ:active {
   background: #188ce8;
 }
 
@@ -183,8 +185,8 @@ body {
 }
 
 /*---------- main portfolio.html ----------*/
-.filter :hover,
-.filter :active {
+.filter:hover,
+.filter:active {
   color: #ffffff;
   background-color: #2196f3;
 }
