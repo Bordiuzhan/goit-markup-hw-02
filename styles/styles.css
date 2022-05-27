@@ -32,6 +32,7 @@ body {
 }
 
 /* header */
+
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -63,7 +64,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* main */
+/* main index.html */
 
 .hero {
   background-color: #2f303a;
@@ -167,7 +168,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Portfolio */
+/* main portfolio.html */
 
 .filter-button {
   font-weight: 500;
