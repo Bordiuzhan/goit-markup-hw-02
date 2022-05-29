@@ -41,7 +41,7 @@ body {
 }
 
 .link-nav {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -179,6 +179,7 @@ body {
 }
 
 .footer-web a {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
